@@ -43,10 +43,10 @@ console.log(capitalise('Hello'));
  function greetwithSmiley(name){
 const capitalized = 
 name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
-return 'Hi, ' + capitalized +':)';
+return `Hi, ${capitalized} :)`
  }
-console.log(greetwithSmiley('edward', " "));
-console.log(greetwithSmiley('aiyana', " "));
+console.log(greetwithSmiley('edward'));
+console.log(greetwithSmiley('aiyana'));
 // 4. Define a function that takes an array of data and returns how many strings are in the array.
 //
 // Example Input and Output:
